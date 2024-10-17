@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Energy Solutions</title>
+  <link rel="stylesheet" href="./assets/style.css" id="theme" />
+</head>
+
+  
+
+<body id="app">
+  <!-- HEADER -->
+
+  <header>
+    <div class="container">
+      <div class="navigation">
+        <div class="logo">
+          <img src="./assets/image/world.png" alt="">
+        </div>
+        <a href="./index.html">Главная</a>
+        <a href="./Catalog.html">Каталог</a>
+        <a href="./Contacts.html">Контакты</a>
+        <div class="title"><h2>Global Energy Solutions</h2></div>
+        <a href="./Admin.html">Админ</a>
+        <a href="./Profile.html">Профиль</a>
+        <a href="./Login.registration.html">Вход</a>
+        <div class="theme">
+          <img src="./assets/image/moon.png" alt="" id="switchMode">
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div class="contacts">
+      <h2>Админ панель</h2>
+      <hr />
+      <div class="main_contacts">
+        <div class="left_column_admin_panel">
+          <p>Главная</p>
+          <a href="">Настройки</a>
+          <a href="">Плат.системы</a>
+          <a href="">Обнуление</a>
+          <a href="">Пользователи</a>
+          <a href="">Новости</a>
+          <a href="">Страницы</a>
+          <a href="">Тарифы</a>
+        </div>
+
+        <div class="main_admin">
+          <h3>Добавление страницы</h3>
+          <form id="contact_form" name="contact_form" method="post"></form>
+          <div class="mb-5 row">
+            <div class="col">
+              <label>Заголовок страницы</label>
+              <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" />
+            </div>
+            <div class="col">
+              <label>Название страницы</label>
+              <input type="text" required maxlength="50" class="form-control1" id="last_name" name="last_name" />
+            </div>
+          </div>
+          <div class="mb-5">
+            <h4>Краткое описание страницы</h4>
+            <label for="message"></label>
+            <textarea class="form-control3" id="message" name="message" rows="5"></textarea>
+          </div>
+          <div>
+            <div class="admin_button">
+              <button type="submit" class="reset">
+                Сбросить
+              </button>
+              <button type="submit" class="add">
+                Добавить
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="top_row">
+          <a href="">Устойчивое развитие</a>
+          <a href="">О компании</a>
+          <a href="">Инвесторам</a>
+          <a href="">Бизнесу</a>
+          <a href="">Пресс-центр</a>
+          <a href="">Карьера</a>
+          <a href="" class="en">En</a>
+        </div>
+        <hr />
+        <div class="row_down">
+          <a href="">Сеть АЗС</a>
+          <a href="">Закупки</a>
+          <a href="">Имущество</a>
+          <a href="">Правовая информация</a>
+          <a href="">Раскрытие информации</a>
+          <a href="">Связаться</a>
+          <a href="" class="en">Горячая линия</a>
+        </div>
+      </div>
+      <div class="bottom_of_page">
+        <h2>Global Energy Solutions</h2>
+        <p>© 2005 - 2024, ПАО Глобал Энерджи Солюшен</p>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/theme.js"></script>
+</body>
+
+</html>

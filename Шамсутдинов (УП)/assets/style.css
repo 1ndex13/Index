@@ -1,0 +1,1305 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&family=Podkova:wght@400..800&display=swap");
+
+* {
+  margin: 0 auto;
+  font-family: "Podkova", serif;
+  background-color: #282828;
+  color: #d8d8d8;
+}
+
+.darkTheme,
+.darkTheme * {
+  background-color: #d8d8d8;
+  color: #282828;
+}
+
+.container {
+  max-width: 1920px;
+  margin-top: 27px;
+}
+
+/* GLAVNAYA */
+
+/* Header */
+.navigation {
+  display: flex;
+  padding-top: 20px;
+}
+
+.logo img {
+  width: 32px;
+  margin-top: 7px;
+}
+body {
+  margin: -30px 0 0 0;
+}
+.navigation a {
+  text-decoration: none;
+  margin-top: 12px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navigation h2 {
+  color: #d8d8d8;
+}
+
+.title h2 {
+  margin-top: 2px;
+  font-size: 30px;
+  font-family: "Pattaya", sans-serif;
+  color: inherit;
+}
+
+.theme img {
+  margin-top: 7px;
+}
+
+.navigation a::after {
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+.darkTheme .navigation a::after {
+  background-color: #282828;
+}
+
+.navigation a:hover:after,
+.navigation a:focus:after {
+  width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.shop_with_tema {
+  display: flex;
+  gap: 20px;
+}
+
+/* Main */
+
+.Bg_future {
+  background-image: url(./image/CreateFuture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1800px;
+  display: flex;
+  height: 461px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.Bg_future h1 {
+  position: absolute;
+  font-weight: 400;
+  top: 347px;
+  padding: 10px 46px 10px 46px;
+  border-radius: 0 25px 25px 0;
+  font-family: "Pattaya", sans-serif;
+  color: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* Information */
+
+.info {
+  display: flex;
+}
+
+.about_us li {
+  font-family: "Pattaya", sans-serif;
+  font-size: 35px;
+  margin-top: 23px;
+}
+
+.about_us p {
+  font-size: 25px;
+  width: 809px;
+  margin-top: 15px;
+}
+
+.mission li {
+  font-family: "Pattaya", sans-serif;
+  font-size: 35px;
+  margin-top: 23px;
+}
+
+.mission p {
+  text-align: center;
+  padding: 50px 30px 50px 30px;
+  border-radius: 25px;
+  background-color: #293462;
+  font-size: 30px;
+  width: 809px;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+.darkTheme .mission p {
+  background-color: #6d82d4;
+}
+
+/* Section_button */
+
+.In_the_section a {
+  transition: 1s;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 9px 20px 9px 20px;
+  font-size: 20px;
+  font-family: "Pattaya", sans-serif;
+  border-radius: 10px;
+  background-color: #293462;
+  text-decoration: none;
+  width: 170px;
+}
+
+.In_the_section a:hover {
+  transform: scale(0.9);
+  color: #fff;
+  background-color: #4a578d;
+}
+
+.darkTheme .In_the_section a {
+  background-color: #6d82d4;
+}
+
+.darkTheme .In_the_section a:hover {
+  color: #282828;
+}
+/* Footer */
+
+/* Первый ряд */
+
+.top_row {
+  width: 1100px;
+  height: 68px;
+  border-radius: 26px 26px 0px 0px;
+  margin-top: 90px;
+  display: flex;
+  background-color: #ddd;
+}
+
+.darkTheme .top_row {
+  background-color: #282828;
+}
+
+.top_row img {
+  background-color: #ddd;
+  width: 40px;
+  height: 40px;
+  margin-top: 18px;
+  margin-left: 36px;
+}
+
+.top_row a {
+  margin-top: 29px;
+  background-color: #ddd;
+  color: #292929;
+  font-size: 15px;
+  text-decoration: none;
+  height: 20px;
+}
+
+.darkTheme .top_row a {
+  background-color: #282828;
+}
+
+.top_row a:hover {
+  color: #d8d8d8;
+}
+/* Нижний ряд */
+.row_down {
+  width: 1100px;
+  background-color: #ddd;
+  border-radius: 0px 0px 26px 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.darkTheme .top_row a {
+  color: #fff;
+  background-color: #282828;
+}
+
+.row_down a {
+  background-color: #ddd;
+  text-decoration: none;
+  color: #898989;
+  font-size: 13px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+hr {
+  width: 1098px;
+}
+
+.darkTheme .row_down {
+  color: #fff;
+  background-color: #282828;
+}
+
+.darkTheme .row_down a {
+  background-color: #282828;
+  color: #d8d8d8;
+}
+
+.row_down a:hover {
+  color: #d8d8d8;
+}
+
+.bottom_of_page h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  color: inherit;
+  font-family: "Pattaya", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.bottom_of_page p {
+  display: flex;
+  font-size: 15px;
+  margin-top: 19px;
+  justify-content: center;
+  color: #aaa;
+  margin-bottom: 50px;
+  padding-bottom: 200px;
+}
+
+/* KATALOG */
+
+/* Блоки */
+.first_blocks {
+  display: flex;
+  margin-top: 80px;
+}
+
+/* Бурение скважин */
+.well_drilling {
+  background-image: url(./image/Well_drilling.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 548px;
+  height: 534px;
+  position: relative;
+  transition: 1s;
+}
+
+.blocks h3 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 35px;
+  padding-top: 5px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.darkTheme .blocks h3 {
+  color: #282828;
+}
+
+.darkTheme .blocks a {
+  color: #6d6d6d;
+}
+
+.darkTheme .blocks a:hover {
+  color: #282828;
+}
+
+.blocks p {
+  font-size: 25px;
+  color: #d8d8d8;
+}
+
+.blocks a {
+  font-size: 25px;
+  color: #a2a2a2;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.blocks a:hover {
+  color: #fff;
+}
+.well_drilling_text {
+  position: absolute;
+  top: 385px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 0 25px 25px 0;
+  opacity: 90%;
+}
+
+.well_drilling:hover {
+  transform: scale(1.07);
+}
+
+.price_with_about {
+  display: flex;
+  flex-direction: column;
+}
+
+.price_with_about p {
+  margin-top: 17px;
+}
+
+.price_with_about a {
+  margin-top: 15px;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.field_text {
+  position: absolute;
+  top: 535px;
+  right: 280px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 25px 0px 0px 25px;
+  opacity: 90%;
+}
+
+/* Местонахождения */
+.Field_development {
+  background-image: url(./image/Field_development.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1154px;
+  height: 534px;
+  position: relative;
+  transition: 1s;
+}
+
+.Field_development:hover {
+  transform: scale(1.07);
+}
+
+.field_text {
+  position: absolute;
+  top: 385px;
+  right: -10px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 25px 0px 0px 25px;
+  opacity: 90%;
+}
+
+.field_text h3 {
+  color: #d8d8d8;
+}
+
+.second_blocks {
+  display: flex;
+  margin-top: 84px;
+}
+
+/* Нефтепереработка */
+.Refining {
+  background-image: url(./image/Refining.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1154px;
+  height: 534px;
+  position: relative;
+  transition: 1s;
+}
+
+.Refining_text {
+  position: absolute;
+  top: 390px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 0px 25px 25px 0px;
+  opacity: 90%;
+}
+
+.Refining:hover {
+  transform: scale(1.07);
+}
+
+/* Газопереработка */
+.Gas_processing {
+  background-image: url(./image/Gas_processing.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 548px;
+  height: 534px;
+  position: relative;
+  transition: 1s;
+}
+
+.Gas_processing:hover {
+  transform: scale(1.07);
+}
+
+.Gas_text {
+  position: absolute;
+  top: 385px;
+  left: 223px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 25px 0px 0px 25px;
+  opacity: 90%;
+}
+
+.third_blocks {
+  display: flex;
+  margin-top: 84px;
+}
+/* Автоматизация */
+.auto {
+  background-image: url(./image/auto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 548px;
+  height: 534px;
+  transition: 1s;
+  position: relative;
+}
+
+.auto:hover {
+  transform: scale(1.07);
+}
+
+.auto_text {
+  position: absolute;
+  top: 385px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 0px 25px 25px;
+  opacity: 90%;
+}
+
+/* Транспортировка нефти и газа */
+.transport {
+  background-image: url(./image/transport.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1154px;
+  height: 534px;
+  position: relative;
+  transition: 1s;
+}
+
+.transport_text {
+  position: absolute;
+  top: 385px;
+  left: 614px;
+  padding: 12px 40px 16px 30px;
+  border-radius: 25px 0px 0px 25px;
+  opacity: 90%;
+}
+
+.transport:hover {
+  transform: scale(1.07);
+}
+/* Контакты */
+
+.contacts {
+  width: 1280px;
+  margin-top: 40px;
+}
+
+.contacts hr {
+  width: 1280px;
+}
+
+.contacts h2 {
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 17px;
+}
+
+/* Офис в Альметьвске */
+
+.city h2 {
+  font-size: 30px;
+  padding-top: 43px;
+}
+
+.city p {
+  font-size: 26px;
+}
+
+.city h4 {
+  font-size: 26px;
+}
+
+/* Profile */
+.profile_block {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.profile {
+  gap: 155px;
+  align-items: center;
+  display: flex;
+}
+
+/* Карта */
+.map_block {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.map {
+  margin-top: 43px;
+  gap: 155px;
+  align-items: center;
+  display: flex;
+}
+
+.map h4 {
+  text-align: right;
+}
+
+/* Pochta */
+.pochta_block {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.pochta {
+  margin-top: 43px;
+  gap: 330px;
+  align-items: center;
+  display: flex;
+}
+.pochta p {
+  width: 200px;
+}
+.pochta h4 {
+  text-align: right;
+}
+
+/* Phone */
+.phone_block {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.phone {
+  margin-top: 43px;
+  gap: 360px;
+  align-items: center;
+  display: flex;
+}
+.phone p {
+  width: 200px;
+}
+.phone h4 {
+  text-align: right;
+}
+
+/* E-mail */
+.e-mail_block {
+  display: flex;
+  gap: 38px;
+  align-items: center;
+}
+.e-mail {
+  margin-bottom: 40px;
+  margin-top: 43px;
+  gap: 645px;
+  align-items: center;
+  display: flex;
+}
+.e-mail p {
+  width: 200px;
+}
+.e-mail h4 {
+  text-align: right;
+}
+
+/* Admin Panel */
+
+.main_contacts {
+  display: flex;
+}
+
+.left_column_admin_panel {
+  background-color: #d9d9d9;
+  width: 226px;
+  height: 591px;
+  border-radius: 10px;
+  justify-content: start;
+  margin-top: 43px;
+}
+
+.left_column_admin_panel a {
+  display: flex;
+  background-color: #d9d9d9;
+  color: #282828;
+  font-size: 27px;
+  font-weight: 400;
+  text-decoration: none;
+  padding-top: 43px;
+  margin-left: 11px;
+}
+
+.left_column_admin_panel p {
+  display: flex;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  color: #282828;
+  font-size: 27px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 11px;
+  padding-top: 22px;
+}
+
+.main_admin h3 {
+  margin-top: 67px;
+  font-size: 27px;
+  font-weight: 400;
+  margin-left: 98px;
+}
+
+label {
+  font-size: 20px;
+  padding-right: 40px;
+  margin-left: 98px;
+}
+
+.form-control {
+  color: #282828;
+  margin-top: 39px;
+  width: 708px;
+  height: 31px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.form-control1 {
+  color: #282828;
+  margin-top: 39px;
+  width: 712px;
+  height: 31px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.main_admin h4 {
+  font-size: 20px;
+  margin-top: 43px;
+  margin-left: 98px;
+}
+
+.form-control3 {
+  color: #282828;
+  width: 900px;
+  height: 200px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.admin_button {
+  margin-left: 775px;
+  margin-top: 30px;
+}
+
+.reset {
+  background-color: #282828;
+  color: #d8d8d8;
+  border-radius: 10px;
+  border: 2px solid #d8d8d8;
+  font-size: 20px;
+  padding: 8px 14px;
+}
+
+.reset:hover {
+  background-color: #d8d8d8;
+  color: #282828;
+}
+
+.add {
+  background-color: #293462;
+  color: #d8d8d8;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  padding: 11px 31px;
+}
+
+.add:hover {
+  background-color: #d8d8d8;
+  color: #282828;
+}
+
+/* Profile */
+
+.profile_container {
+  width: 637px;
+  position: relative;
+}
+
+.profile_container img {
+  position: absolute;
+  top: 34px;
+}
+
+.form-control_first_name {
+  color: #282828;
+  width: 435px;
+  height: 31px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-left: 192px;
+}
+
+.form-control_second_name {
+  color: #282828;
+  width: 435px;
+  height: 31px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-left: 192px;
+}
+
+.cols h4 {
+  margin-top: 40px;
+  margin-left: 195px;
+  margin-bottom: 20px;
+}
+
+.form-control_e-mail {
+  width: 628px;
+  height: 31px;
+  color: #282828;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.form-control_phone {
+  color: #282828;
+  width: 300px;
+  height: 31px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.form-control_profession {
+  color: #282828;
+  width: 300px;
+  height: 31px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.col h4 {
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.phone_with_profession {
+  display: flex;
+  gap: 18px;
+}
+
+.reset_add {
+  margin-top: 49px;
+  margin-left: 312px;
+}
+
+/* Feedback */
+
+.feedback_container {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.form-container {
+  padding: 30px;
+  width: 50%;
+}
+
+.form-container h2 {
+  color: #d8d8d8;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-left: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  background-color: #293462;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  width: 100%;
+}
+
+.darkTheme .form-button {
+  background-color: #6d82d4;
+}
+
+.form-button:hover {
+  background-color: #141a2f;
+}
+
+.info-container {
+  color: #fff;
+  padding: 30px;
+  width: 50%;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.terms {
+  font-size: 15px;
+  margin: 0px;
+}
+
+.terms-of-service {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+input::placeholder {
+  padding-left: 7px;
+}
+
+/* Login */
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background-color: transparent;
+  border: 2px solid #d8d8d8;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: height 0.2 ease;
+  overflow: hidden;
+  transition: transform 0.5s ease, height 0.2s ease;
+}
+
+.wrapper.active {
+  height: 520px;
+}
+
+.wrapper .form-box {
+  border-radius: 20px;
+  width: 100%;
+  padding: 40px;
+}
+
+.wrapper .form-box.login {
+  transition: transform 0.18s ease;
+  transform: translateX(0);
+}
+
+.wrapper .form-box.register {
+  position: absolute;
+  transition: none;
+  transform: translateX(400px);
+  width: 300px;
+}
+
+.wrapper.active .form-box.register {
+  transition: transform 0.18s ease;
+  transform: translateX(0);
+}
+
+a.login-link {
+  padding-left: 10px;
+}
+
+.wrapper.active .form-box.login {
+  transition: none;
+  transform: translateX(-400px);
+}
+
+.darkTheme .wrapper {
+  border: 2px solid #282828;
+}
+
+.form-box.register {
+  position: absolute;
+  transform: translateX(400px);
+}
+
+.form-box h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #d8d8d8;
+  margin: 30px 0;
+}
+
+.input-box p {
+  margin-left: -100px;
+}
+
+.input-box .login_label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #d8d8d8;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+  top: -5px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+  font-size: 1.2em;
+  color: #282828;
+  line-height: 57px;
+}
+
+.remember {
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+
+.remember-forgot {
+  color: #d8d8d8;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remember-forgot a {
+  margin-left: 80px;
+  text-decoration: none;
+  color: #d8d8d8;
+}
+
+.darkTheme .remember-forgot a {
+  color: #282828;
+}
+
+.remember-forgot label input {
+  accent-color: #162938;
+  margin-right: 3px;
+}
+
+.log_btn {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  background-color: #d8d8d8;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  color: #282828;
+  font-weight: 500;
+}
+
+.darkTheme .log_btn {
+  background-color: #282828;
+  color: #d8d8d8;
+}
+
+.login-register {
+  font-size: 0.9em;
+  color: #d8d8d8;
+  text-align: center;
+  font-weight: 400;
+  margin: 25px 0 10px;
+}
+
+.register-link {
+  margin-left: 10px;
+}
+
+.login-register p a {
+  color: #d8d8d8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.darkTheme .register-link {
+  color: #282828;
+}
+
+.login-register p a:hover {
+  text-decoration: underline;
+}
+
+.icon-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: 2em;
+  color: #282828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.icon-close i {
+  transform: rotate(45deg);
+}
+
+@media screen and (max-width: 768px) {
+  /* Главная */
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .title h2 {
+    font-size: 20px;
+  }
+
+  .navigation a {
+    font-size: 15px;
+  }
+
+  .Bg_future {
+    width: 730px;
+    height: 210px;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .Bg_future h1 {
+    position: absolute;
+    top: 180px;
+    left: -25px;
+    font-size: 20px;
+    border-radius: 0 20px 20px 0;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  .mission li {
+    font-size: 25px;
+  }
+
+  .mission p {
+    font-size: 20px;
+    width: 675px;
+  }
+  .about_us li {
+    font-size: 25px;
+  }
+
+  .about_us p {
+    width: 730px;
+    font-size: 20px;
+  }
+
+  .top_row {
+    width: 730px;
+    height: 58px;
+  }
+
+  .top_row a {
+    font-size: 12px;
+  }
+
+  .row_down {
+    width: 730px;
+    height: 58px;
+  }
+
+  .row_down a {
+    border-radius: 20px;
+    font-size: 10.5px;
+  }
+  hr {
+    width: 728px;
+  }
+
+  .bottom_of_page h2 {
+    font-size: 20px;
+  }
+
+  .bottom_of_page p {
+    font-size: 12px;
+  }
+
+  /* Каталог */
+
+  /* Первый блок */
+  .first_blocks {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 730px;
+    gap: 20px;
+  }
+
+  .blocks h3 {
+    font-size: 20px;
+  }
+
+  .blocks a {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  .well_drilling_text {
+    position: absolute;
+    font-size: 20px;
+    top: 145px;
+    padding: 3px 20px 4px 15px;
+  }
+
+  .well_drilling {
+    width: 243px;
+    height: 220px;
+    position: relative;
+  }
+
+  .Field_development {
+    width: 496px;
+    height: 220px;
+    position: relative;
+  }
+
+  .field_text {
+    position: absolute;
+    font-size: 20px;
+    top: 145px;
+    padding: 3px 20px 4px 15px;
+  }
+
+  /* Второй блок */
+  .second_blocks {
+    display: flex;
+    justify-content: center;
+    width: 730px;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .Refining {
+    width: 496px;
+    height: 220px;
+  }
+
+  .Refining_text {
+    position: absolute;
+    font-size: 20px;
+    top: 145px;
+    padding: 3px 20px 4px 15px;
+  }
+
+  .Gas_processing {
+    width: 243px;
+    height: 220px;
+    position: relative;
+  }
+
+  .Gas_text {
+    position: absolute;
+    font-size: 20px;
+    left: 60px;
+    top: 145px;
+    padding: 3px 20px 4px 15px;
+  }
+
+  /* Третий блок */
+  .third_blocks {
+    display: flex;
+    justify-content: center;
+    width: 730px;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .auto {
+    width: 243px;
+    height: 220px;
+    position: relative;
+  }
+  .auto_text {
+    position: absolute;
+    font-size: 20px;
+    top: 145px;
+    padding: 3px 20px 4px 15px;
+  }
+
+
+  .transport {
+    width: 496px;
+    height: 220px;
+    position: relative;
+  }
+
+  .transport_text {
+    position: absolute;
+    font-size: 20px;
+    left: 173px;
+    top: 145px;
+    padding: 3px 20px 4px 15px;
+  }
+}
